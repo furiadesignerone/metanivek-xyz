@@ -70,14 +70,14 @@ const Yours = ({ items }) => {
           <Box fontSize="xs">{elidedAddress(address)}</Box>
           {items.length > 0 && (
             <Text padding={[4, 4, 4, 8]} textAlign="center">
-              You own {items.length} metanivek{" "}
+              You own {items.length} furiadesignerone{" "}
               {items.length > 1 ? "pieces" : "piece"}. Thank you. I appreciate
               your support! 💛
             </Text>
           )}
           <Gallery
             items={items}
-            empty="Hmm, you do not own any metanivek pieces. 👻"
+            empty="Hmm, you do not own any furiadesignerone pieces. 👻"
             collectable={false}
           />
         </VStack>
@@ -93,7 +93,7 @@ const Yours = ({ items }) => {
             Connect Account
           </Button>
           <Text padding={[4, 4, 4, 8]}>
-            Connect to view all metanivek pieces that you own. 🤝
+            Connect to view all furiadesignerone pieces that you own. 🤝
           </Text>
         </VStack>
       )}

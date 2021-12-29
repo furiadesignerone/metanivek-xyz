@@ -10,10 +10,14 @@ export default function Header() {
     <Center m={4}>
       <VStack>
         <Text align="center" pb={2}>
-          experimental objkt gallery
-          <br /> by <Link href="https://twitter.com/metanivek">@metanivek</Link>
+          MESTAESPACES
+          <br/> NFT GALLERY
+
+          <br /> curated by Marie Van Dooren <Link href="https://www.instagram.com/marie.vandooren/">@marie.vandooren</Link> and Fernando Asensio Muñoz <Link href="https://twitter.com/AmLBOk0HFzdFHMy">@AmLBOk0HFzdFHMy</Link>
           <br />
-          <Link color="blue" href="https://github.com/metanivek/metanivek-xyz">
+          <br /> 
+          <br /> FOLLOW OUR ACCOUNT ON INSTAGRAM
+          <Link color="blue" href="https://www.instagram.com/furiadesignerone_digitalart/">
             view source
           </Link>
         </Text>
