@@ -21,7 +21,7 @@ const TezosIcon = (props) => (
 export default function CollectButton({ item }) {
   const collect = (dest) => () => window.open(item.uris[dest], "_blank");
   let tag = "Primary";
-  let tagColor = "green";
+  let tagColor = "red";
   let disabled = false;
   if (item.secondary) {
     tag = "Secondary";
