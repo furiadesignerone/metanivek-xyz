@@ -1,5 +1,5 @@
 module.exports = {
-  generateBuildId: () => "metanivek-xyz",
+  generateBuildId: () => "furiadesignerone",
   reactStrictMode: true,
   webpack: (config) => {
     // https://github.com/wojtekmaj/react-pdf/issues/799
