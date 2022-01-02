@@ -70,7 +70,7 @@ export default function GalleryItemModal({ item, isOpen, onClose }) {
             </Heading>
             <Box fontSize="xs" color="gray.500">
               <Link href={item.uris.hen}>#{item.id}</Link> &middot;{" "}
-              <Link href={`https://hicetnunc.xyz/${item.creatorName}`}>
+              <Link href={`https://hicetnunc.art/${item.creatorName}`}>
                 {item.creatorName}
               </Link>
             </Box>
